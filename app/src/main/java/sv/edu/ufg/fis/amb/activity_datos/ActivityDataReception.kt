@@ -21,13 +21,13 @@ class ActivityDataReception : AppCompatActivity() {
         Salir = findViewById(R.id.btnSalir)
 
         val intent = intent
-        val nombres = intent.getStringExtra("nombres")
-        val apellidos = intent.getStringExtra("apellidos")
-        val email = intent.getStringExtra("email")
+        val NombresS = intent.getStringExtra("nombres")
+        val ApellidosS = intent.getStringExtra("apellidos")
+        val EmailS = intent.getStringExtra("email")
 
-        Nombres.text = nombres
-        Apellidos.text = apellidos
-        Email.text = email
+        Nombres.text = NombresS
+        Apellidos.text = ApellidosS
+        Email.text = EmailS
 
         Salir.setOnClickListener{
             finish()

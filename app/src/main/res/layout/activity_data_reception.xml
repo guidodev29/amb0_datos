@@ -50,21 +50,26 @@
             android:layout_marginLeft="10dp"
             android:layout_below="@id/lbl_datos_ingresados"
             android:layout_marginTop="10dp"
+            android:text="h "
             />
+
         <TextView
             android:id="@+id/lbl_apellidos_res"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:layout_marginLeft="10dp"
             android:layout_below="@id/lbl_nombres_res"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text=" y"
+            android:textSize="14sp"
+            tools:ignore="SpeakableTextPresentCheck" />
         <TextView
             android:id="@+id/lbl_email_res"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="14sp"
             android:layout_marginLeft="10dp"
+            android:text=" yh"
             android:layout_below="@id/lbl_apellidos_res"
             android:layout_marginTop="10dp"/>
         <Button

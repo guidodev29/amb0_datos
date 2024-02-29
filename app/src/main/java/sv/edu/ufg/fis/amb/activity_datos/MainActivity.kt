@@ -27,9 +27,9 @@ class MainActivity : AppCompatActivity() {
                 mensaje("Campos Vacíos.", "Se ha detectado que al menos un campo está vacío ¿Desea Continuar?")
             }else{
                 val intent = Intent(this,ActivityDataReception::class.java)
-                intent.putExtra("Nombres",txtNombres.getText().toString())
-                intent.putExtra("Apellidos",txtApellidos.getText().toString())
-                intent.putExtra("Email",txtEmail.getText().toString())
+                intent.putExtra("nombres",txtNombres.getText().toString())
+                intent.putExtra("apellidos",txtApellidos.getText().toString())
+                intent.putExtra("email",txtEmail.getText().toString())
                 startActivity(intent)
             }
         }
